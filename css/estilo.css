@@ -292,7 +292,7 @@ img{
 
 .contato iframe{
 	margin-top: 25px;
-	max-width: 450px;
+	max-width: 350px;
 	height: 180px;
 }
 
@@ -339,6 +339,7 @@ img{
 
 .footer{
 	display: flex;
+	flex-wrap: wrap;
 	background: #fac347;
 	align-items: center;
 	height: 70px;
