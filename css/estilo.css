@@ -1,0 +1,353 @@
+body, h1, h2, p, ul, li, a{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.superinfo-bg{
+	background: #ff0000;
+	color: white;
+}
+
+.superinfo a{
+	color: white;
+}
+
+.superinfo{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 960px;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.superinfo p, .superinfo a{
+	margin: 0 10px 10px 10px;
+}
+
+.menu-bg{
+	background: #fac347;
+}
+
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.menu-logo a{
+	font-size: 2.25em;
+	font-weight: bold;
+	margin: 0 10px;
+	color: #292929;
+}
+
+.menu-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-nav a{
+	color: #292929;
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+}
+
+.menu-nav a:hover{
+	color: #000000;
+}
+
+.sobre{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.sobre-info{
+	margin: 0 10px 23px;
+	flex: 2 1 300px;
+}
+
+.sobre-info h1{
+	font-size: 3em;
+	margin-bottom: .5em;
+	color: #292929;
+}
+
+.sobre-info p{
+	font-size: 1.25em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7c7c7c;
+}
+
+.sobre-img{
+	flex: 1 1 160px;
+	margin: 0 10px;
+}
+
+.preco{
+	background: #fac347;
+	padding: 60px;		
+	align-items: center; 
+}
+
+.preci{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.precos{
+	background: #fac347;
+	font-size: 1.6em;
+}
+
+.preco h1{
+	text-align: center;
+	display: block;
+	padding-bottom: 30px;
+	font-size: 3em;
+	color: #292929;
+
+}
+
+.preco-item{
+	flex: 1 1 175px;
+	border: 4px solid #f8f8ff;
+	padding: 20px;
+	margin: 10px;
+	background: #f8f8ff;
+	min-width: 260px;	
+}
+
+.preco-item h2{
+	font-size: 1.6em;		
+	color: #292929;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.preco-item span{
+	max-width: 300px;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0 5px 0;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+	font-size: 2em;
+}
+
+.preco-item sup{
+	font-size: .5em;
+}
+
+.preco-item ul{
+	max-width: 300px;
+	margin: 20px auto;
+	font-size: 1.07em;
+	font-style: italic;
+	list-style: disc;
+}
+
+.preco-item li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.preco-item li::after{
+	content: '';
+	display: block;
+	width: 6px;
+	height: 6px;
+	background: #000000;
+	border-radius: 50%;	
+}
+
+.preco-item a{
+	max-width: 300px;
+	display: block;
+	margin: 20px auto;
+	border: 4px solid;
+	color: #292929;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.22em;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.preco-item .as{
+	margin-top: 55px;
+}
+
+.preços-itens h1{
+	display: block;
+}
+
+.diferenciais{
+	max-width: 960px;
+	margin: 0 auto 25px auto;
+
+}
+
+.divo{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.diferenciais .dif{
+	border-top: 8px solid #fac347;
+	background: #F8F8FF	;
+	align-items: center;
+	margin: 40px;
+	margin-left: 30px;
+	padding: 30px;
+	display: block;
+	width: 250px;
+	justify-content: space-between;
+	flex: 1 1 200px;
+}
+
+.diferenciais h2{
+	font-size: 1.50em;
+	margin-bottom: .5em;
+}
+
+.diferenciais p{
+	font-size: 1.15em;
+	line-height: 1.4;
+}
+
+.diferenciais h1{
+	font-size: 3em;
+	text-align: center;
+	color: #292929;
+}
+
+.contato #contatos{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+.contato h1{
+	text-align: center;
+	display: block;
+	padding-top: 30px;
+	font-size: 3em;
+	color: #292929;
+	margin-top: 70px;
+}
+
+.contato #contato1{
+	display: block;
+	max-width: 600px;
+	padding: 20px;
+	margin: 10px;
+}
+
+
+#contato1 h2{
+	font-size: 1.6em;		
+	color: #292929;
+	margin-bottom: 10px;
+}
+
+#contato p{
+	font-size: 1em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #000000;
+}
+
+.contato iframe{
+	margin-top: 25px;
+	max-width: 450px;
+	height: 180px;
+}
+
+.contato form input{
+	width: 90%;
+	height: 35px;
+	margin: 10px;
+	border: 1px solid #292929;
+	border-radius: 3px;
+}
+
+.contato #mensagem{
+	width: 90%;
+	margin: 10px;
+	height: 130px;
+	border-radius: 3px;
+	border: 1px solid #292929;
+}
+
+.contato button{
+	background: #000000;
+	color: #ffffff;
+	width: 140px;
+	height: 30px;
+	cursor: pointer;
+	border: 1px solid #000000;
+	margin: 0  auto;
+	margin-left: 9px;
+	font-weight: bold;
+}
+
+@media (max-width: 800px){
+	.preco{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.preco .preco:nth-child(3){ /* Quando estiver no mobile a 3 opção vai aparecer como o primeiro*/
+		order: -2;
+	}
+	.preco .preco:nth-child(2){ /* Quando estiver no mobile a 2 opção vai aparecer como o terceiro*/
+		order: -1;
+	} 
+}
+
+.footer{
+	display: flex;
+	background: #fac347;
+	align-items: center;
+	height: 70px;
+}
+
+.footer p{
+	flex: 1;
+	text-align: center;
+	font-size: 1em;
+	color: #292929;
+	font-weight: bold;
+}
