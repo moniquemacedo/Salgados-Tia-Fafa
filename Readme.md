@@ -1,1 +1,1 @@
-Site criado para cliente fictício utilizando HTML e CSS. Projeto Home Page feito com FlexBox.
+Site criado para cliente fictício utilizando HTML e CSS. Projeto One Page feito com FlexBox.
